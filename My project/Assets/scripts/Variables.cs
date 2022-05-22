@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fake : MonoBehaviour
+public class Variables : MonoBehaviour
 {
+    public float speed;
+    public float maxSpeed;
+    public float jumpForce;
+
     // Start is called before the first frame update
     void Start()
     {
